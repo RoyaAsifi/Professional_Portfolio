@@ -1,0 +1,174 @@
+* {
+    background-color: rgb(253, 230, 234);
+    scroll-behavior: smooth;
+}
+
+:root {
+    border-style: solid;
+    border-width: 50px;
+    border-color: rgb(252, 189, 174);
+    padding: 1px;
+    --dark: rgb(252, 189, 174);
+    --light: rgb(150, 80, 80);
+    --navlink-color: rgb(150 80 80);
+  }
+  
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: var(--light);
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  
+h1 {
+    font-family: fantasy;
+    font-size: 700%;
+    padding: 40px;
+  }
+  
+h2 {
+    margin: 5%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 250%;
+    scroll-behavior: smooth;
+  }
+
+h3 {
+    margin: 5%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 250%;
+    scroll-behavior: smooth;
+  }
+
+h4 {
+    margin: 5%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 250%;
+    scroll-behavior: smooth;
+  }
+
+h5 {
+    font: var(--dark);
+    font-size: 20px;
+    font-family: fantasy;
+    color: var(--light);
+  }
+
+h6 {
+    font: var(--dark);
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: left;
+    color: var(--light);
+  }
+
+img {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+  
+footer{
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    font-family: fantasy  
+}
+
+button {
+    font-size: 25px;
+    font-family: fantasy;
+    background-color: var(--dark);
+    display: flex;
+}
+  
+nav a {
+    background-color: none;
+    text-decoration: style;
+    font-size: 25px;
+  }
+  
+nav a:hover {
+    color: var(--light);
+  }
+
+.myProfilePic {
+    padding-left: 500px;
+    max-width: 300px
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.projects > h5 {
+    padding: 20px;
+    position: relative;
+    margin-top: -20px;
+}
+
+.projects > h6 {
+    
+    padding: 20px;
+    margin-top: -20px;
+}
+    
+.projects > img {
+    width: 30%;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    ul{
+        flex-direction: column;
+    }
+    img{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+    }
+    img{
+        flex-direction: column;
+    }
+}
